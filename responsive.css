@@ -1,0 +1,152 @@
+@media only screen and (min-width: 280px) and (max-width: 800px){
+    body{
+        /* background-color: orange; */
+    }
+    /* 
+      ===== header ====
+    */
+    #header{
+        width: 100%;
+        padding-top: 55px;
+        height: 555px;
+        background-size: 100% 350px;
+    }
+    .top-header{
+        /* flex-direction: column; */
+    }
+    .header-data h1{
+        font-size: 30px;
+        text-align:center;
+        padding: 0;
+        margin: 0;
+    }
+    .header-data-p{
+        padding:25px 0;
+    }
+    .header-data p{
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .header-data{
+        width: 100% !important;
+        padding: 10px;
+    }
+    .header-btn a{
+        width: 150px;
+    }
+    .btn{
+        width:150px;
+    }
+    
+    
+    
+    
+    .short-services-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: -35px;
+    }
+    .short-service-item{
+        margin: 0;
+    }
+    
+    
+    
+    
+    
+    .owner-container{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .ceo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 115px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    
+    .ceo img{
+        width: 300px;
+        height: 320px;
+    }
+    .ceo-data{
+        width: 300px;
+        height: 300px;
+    }
+    .flip-card{
+        width: 380px;
+    }
+    
+    
+    
+    
+    
+    #slider{
+        height: 450px;
+    }
+    #slider img{
+        height: 350px;
+        width: 96%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .teach-1{
+        border-radius: 10px;
+        width: 250px;
+        background-color: #791a1acb;
+        position: absolute;
+        top: 60px;
+        left: 5px;
+        padding: 15px;
+        color: rgb(43, 37, 37);
+        line-height: 25px;
+        height: 300px;
+        overflow: scroll;
+      }
+      .teach-1 img{
+        width: 100px;
+        height: 100px;
+      }
+      .teach-1 p{
+        font-size: 14px;
+        color: black;
+      }
+      
+      
+      
+    .plan-wraper{
+        padding: 50px 15px;
+    }
+    .plan-container{
+        flex-direction: column;
+        padding-top: 0;
+        gap: 100px;
+    }
+    .plan-right,.plan-left{
+        width: 98%;
+    }
+    .plan-right{
+        gap: 25px;
+    }
+    
+    
+    
+    #services{
+        padding: 50px 25px;
+    }
+    .services-container{
+        flex-direction: column;
+    }
+    .service-left-container{
+        width: 100%;
+        gap:30px;
+        flex-direction: column;
+    }
+    .service-right-container{
+        width: 100%;
+    }
+}
