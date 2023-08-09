@@ -1,4 +1,6 @@
-@media only screen and (min-width:550px) and (max-width: 1000px){ 
+
+
+@media only screen and (min-width:550px) and (max-width: 1150px){ 
     #header{
         padding-top: 25px;
         margin-top: -25px;
@@ -57,8 +59,7 @@
         align-items: center;
     }
     .ceo{
-        
-        gap: 115px;
+        gap:90px;
         height: auto;
         margin-bottom: 100px;
     }
@@ -68,12 +69,12 @@
         height: 350px;
     }
     .ceo-data{
-        width:48%;
-        height: 320px;
+        width:52%;
+        height:340px;
     }
     .flip-card{
         width:80%;
-        height: 400px;
+        height: 450;
     }
     .flip-card p:last-child{
         padding:25px 10% ;
@@ -301,7 +302,7 @@
         height: 300px;
     }
     .flip-card{
-        width: 380px;
+        width: 400px;
     }
     
     
@@ -498,5 +499,17 @@
     }
     small{
         margin-top: -25px;
+    }
+}
+
+
+
+@media only screen and (min-width:400px) and (max-width: 850px){   
+    .ceo img{
+        height: 400px !important;
+    }
+    .ceo-data{
+        height: 400px !important;
+        width: 55% !important;
     }
 }
