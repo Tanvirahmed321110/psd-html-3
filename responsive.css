@@ -224,6 +224,9 @@
     .top-header{
         flex-direction: column;
     }
+    .ull{
+        padding-top: 10px;
+    }
     .ull li{
         margin:0px .6% !important;
     }
@@ -235,6 +238,7 @@
     }
     .header-data h1{
         font-size: 30px;
+        padding:30px  0 10px 0 !important;
         text-align:center;
         padding: 0;
         margin: 0;

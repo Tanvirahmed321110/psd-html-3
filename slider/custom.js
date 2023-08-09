@@ -4,9 +4,9 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     autoplay:true,
     lazyLoad:true,
-    smartSpeed:1400,
+    smartSpeed:1100,
     stagePadding:100,
-    autoplayTimeout:5000,
+    autoplayTimeout:3000,
     responsive:{
         0:{
             items:1,
