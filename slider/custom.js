@@ -5,7 +5,7 @@ $('.owl-carousel').owlCarousel({
     autoplay:true,
     lazyLoad:true,
     smartSpeed:1400,
-    stagePadding:130,
+    stagePadding:100,
     autoplayTimeout:5000,
     responsive:{
         0:{
@@ -13,7 +13,8 @@ $('.owl-carousel').owlCarousel({
             stagePadding:0,
         },
         600:{
-            items:1
+            items:1,
+            stagePadding:0,
         },
         1000:{
             items:1
